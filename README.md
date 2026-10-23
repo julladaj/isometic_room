@@ -49,6 +49,12 @@ npm run preview
 
 `dist/` is a complete static website. Assets use a relative base so the build can also be hosted under a subdirectory. Serve it over HTTP; opening `index.html` directly as a local file does not enable normal module and model loading.
 
+### Deploy to GitHub Pages
+
+In the repository's **Settings → Pages**, choose **GitHub Actions** as the source. The workflow in `.github/workflows/deploy-pages.yml` checks the assets, builds the site, and publishes only `dist/` on every push to `main`. It can also be started manually from **Actions → Deploy to GitHub Pages → Run workflow**.
+
+Public site URL after a successful deployment: https://julladaj.github.io/isometic_room/
+
 ### Interactions
 
 - Drag to orbit; scroll or pinch to zoom. The home button restores the original camera.
