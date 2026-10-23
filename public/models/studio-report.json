@@ -1,0 +1,22 @@
+{
+  "source": "pastel_developer_studio.blend",
+  "objects_before": 1372,
+  "mesh_batches": 79,
+  "vertices": 322735,
+  "interaction_ids": [
+    "chair",
+    "door",
+    "rug",
+    "lamp",
+    "computer",
+    "monitors",
+    "mug",
+    "books",
+    "art",
+    "sign",
+    "desk",
+    "room"
+  ],
+  "bytes": 5707736,
+  "lighting": "dynamic web lighting; procedural textiles converted to portable textures"
+}
