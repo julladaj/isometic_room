@@ -2,6 +2,8 @@
 
 Editable Blender studio with saturated violet, cobalt and pink accents, warm oak flooring, and local coloured desk lighting. The original orthographic composition and wall lettering are preserved.
 
+![Vivid developer studio preview](screenshot.png)
+
 - `pastel_developer_studio.blend` — editable scene, camera, procedural materials, lighting and packed font.
 - `pastel_developer_studio.png` — 1536 × 1536 Cycles render, 256 samples with denoising.
 - `preview.png` — reduced-resolution composition check.
